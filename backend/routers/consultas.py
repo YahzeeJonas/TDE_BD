@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 
-from backend.database import get_db
+from backend.database.database import get_db
 
 router = APIRouter(
     prefix="/consultas",

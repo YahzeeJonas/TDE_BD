@@ -2,7 +2,7 @@
 from sqlalchemy import String, Boolean, Enum
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from backend.database import Base
+from backend.database.database import Base
 
 
 class Funcionario(Base):

@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 
-from backend.database import get_db
+from backend.database.database import get_db
 from backend.models.produto import Produto
 from backend.schemas.produto import (
     ProdutoCreate,

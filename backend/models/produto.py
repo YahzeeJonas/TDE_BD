@@ -2,7 +2,7 @@
 from sqlalchemy import String, Integer, Numeric, Boolean, Text, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from backend.database import Base
+from backend.database.database import Base
 
 
 class Categoria(Base):

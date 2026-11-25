@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy import ForeignKey, Integer, DateTime
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from backend.database import Base
+from backend.database.database import Base
 
 
 class Estoque(Base):

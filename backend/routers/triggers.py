@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 
-from backend.database import get_db
+from backend.database.database import get_db
 from backend.models.produto import Produto
 
 router = APIRouter(prefix="/triggers", tags=["Gatilhos (Triggers)"])
