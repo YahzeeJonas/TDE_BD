@@ -1,6 +1,6 @@
 
 # Variáveis de ambiente e credenciais
-.env
+backend/.env
 .env.*
 !.env.example
 
